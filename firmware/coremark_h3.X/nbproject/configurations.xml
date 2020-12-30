@@ -149,7 +149,7 @@
         <targetDevice>PIC32MZ1025W104132</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>noID</platformTool>
+        <platformTool>pk4hybrid</platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>2.40</languageToolchainVersion>
         <platform>3</platform>
@@ -195,20 +195,20 @@
                   value="../src;../src/config/pic32mzw1_osal;../src/packs/PIC32MZ1025W104132_DFP"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
-        <property key="isolate-each-function" value="false"/>
+        <property key="isolate-each-function" value="true"/>
         <property key="make-warnings-into-errors" value="false"/>
         <property key="optimization-level" value="-O3"/>
         <property key="place-data-into-section" value="false"/>
         <property key="post-instruction-scheduling" value="schedule-insns2"/>
         <property key="pre-instruction-scheduling" value="schedule-insns"/>
-        <property key="preprocessor-macros" value="ITERATIONS=6000;PERFORMANCE_RUN=1"/>
+        <property key="preprocessor-macros" value="ITERATIONS=10000;PERFORMANCE_RUN=1"/>
         <property key="strict-ansi" value="false"/>
         <property key="support-ansi" value="false"/>
         <property key="toplevel-reordering" value="-ftoplevel-reorder"/>
         <property key="unaligned-access" value=""/>
         <property key="use-cci" value="false"/>
         <property key="use-iar" value="false"/>
-        <property key="use-indirect-calls" value="false"/>
+        <property key="use-indirect-calls" value="true"/>
       </C32>
       <C32-AR>
         <property key="additional-options-chop-files" value="false"/>
